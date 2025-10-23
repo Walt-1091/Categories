@@ -7,6 +7,6 @@ namespace Categories.Services
         string GetCategoryInfo(int categoryId);
         CategoryInfoResponse GetCategoryInfoDetailed(int categoryId);
         List<int> GetCategoriesByLevel(int level);
-        List<Category> GetAllCategories();
     }
 }
+
