@@ -63,8 +63,6 @@
                 .ToList();
         }
 
-        public List<Category> GetAllCategories() => _categoryLookup.Values.ToList();
-
         private string FindKeywordRecursive(Category category)
         {
             return _hasKeywords(category)
@@ -104,3 +102,4 @@
         }
     }
 }
+
