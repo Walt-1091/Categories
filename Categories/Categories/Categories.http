@@ -1,0 +1,67 @@
+@Categories_HostAddress = https://localhost:44344/
+
+### Get Category Info (Problem 1 - Detailed JSON)
+GET {{Categories_HostAddress}}/api/categories/201
+Accept: application/json
+
+###
+
+### Get Category Info (Problem 1 - Detailed JSON) - Example 2
+GET {{Categories_HostAddress}}/api/categories/202
+Accept: application/json
+
+###
+
+### Get Category Info (Problem 1 - Formatted String)
+GET {{Categories_HostAddress}}/api/categories/201/formatted
+Accept: application/json
+
+###
+
+### Get Category Info (Problem 1 - Formatted String) - Example 2
+GET {{Categories_HostAddress}}/api/categories/202/formatted
+Accept: application/json
+
+###
+
+### Get Category Info - Taxation (no keywords)
+GET {{Categories_HostAddress}}/api/categories/102/formatted
+Accept: application/json
+
+###
+
+### Get Categories by Level (Problem 2) - Level 1
+GET {{Categories_HostAddress}}/api/categories/level/1
+Accept: application/json
+
+###
+
+### Get Categories by Level (Problem 2) - Level 2
+GET {{Categories_HostAddress}}/api/categories/level/2
+Accept: application/json
+
+###
+
+### Get Categories by Level (Problem 2) - Level 3
+GET {{Categories_HostAddress}}/api/categories/level/3
+Accept: application/json
+
+###
+
+### Get Categories by Level (Problem 2) - Level 4
+GET {{Categories_HostAddress}}/api/categories/level/4
+Accept: application/json
+
+###
+
+### Error Case - Category Not Found
+GET {{Categories_HostAddress}}/api/categories/999
+Accept: application/json
+
+###
+
+### Error Case - Invalid Level (0)
+GET {{Categories_HostAddress}}/api/categories/level/0
+Accept: application/json
+
+###
