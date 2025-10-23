@@ -33,11 +33,11 @@
 
 ```
 Categories/
-├── Program.cs              # Entry point + DI config
-├── Models/Category.cs      # Data models
+├── Program.cs              
+├── Models/Category.cs      
 ├── Services/
 │   ├── ICategoryService.cs
-│   └── CategoryService.cs  # Business logic
+│   └── CategoryService.cs  
 └── Controllers/
     └── CategoriesController.cs
 ```
